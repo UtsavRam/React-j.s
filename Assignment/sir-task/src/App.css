@@ -1,0 +1,19 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.mainrow
+{
+    background-color: #0479ff47;
+}
+.rentbtn
+{
+    background-color: #003b95;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    color: white;
+}

@@ -1,0 +1,34 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.mainrow
+{
+    background-color: #0479ff47;
+}
+.rentbtn
+{
+    background-color: #003b95;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    color: white;
+}
+.dialog 
+{
+    margin: 50px auto;
+}
+#model
+{
+    width: 1000px;
+    height: 500px;
+}
+#close
+{
+ margin-left: 30px;
+ display: none;
+ width: 38px;
+}

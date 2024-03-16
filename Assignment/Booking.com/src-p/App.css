@@ -1,0 +1,73 @@
+header{
+  height: 150px;
+  background-color: #003b95 !important;
+  justify-content: end;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.flag{
+  width: 30px;
+  height: 30px;
+}
+
+.Btn:hover
+{
+background-color: rgba(135, 207, 235, 0.396) !important;
+border: 1px solid black;
+}
+.homebtn 
+{
+  height: 30px;
+  width: 100px;
+}
+.img 
+{
+  background-image: url(../src/img/Rohitbooking.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 441px;
+  width: 100%;
+  background-position: right;
+}
+.row p 
+{
+  position: absolute;
+  top: 62%;
+  color: rgba(255, 255, 255, 0.995);
+  font-weight: bold;
+}
+.UP 
+{
+  position: absolute;
+  top: 70%;
+}
+.Container .input1
+{
+  height: 50px;
+  width: 270px;
+  top: 93%;
+  left: 15%;
+}
+.Container .input2
+{
+  height: 50px;
+  width: 270px;
+  top: 93%;
+  left: 36.3%;
+}
+.Container .input3
+{
+  height: 50px;
+  width: 270px;
+  top: 93%;
+  left: 57.7%;
+  position: absolute;
+  right: 100;
+}
+.star
+{
+  justify-content: end;
+}
