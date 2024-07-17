@@ -1,21 +1,20 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
-import Home from './Home';
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SignIn from './SignIn';
-
+import './css/style.css';
+import { BrowserRouter } from 'react-router-dom';
+import Header from './Header';
+import Footer from './Footer';
+import Routing from './Routing';
 function App() {
   return (
-    <div className="App">
-      {/* <Home/> */}
-      <BrowserRouter>
-          <Routes>
-            <Route path='/' element={<Home/>}></Route>
-            <Route path='/Singin' element={<SignIn/>}></Route>
-          </Routes>
-      </BrowserRouter>
-    </div>
-  );
+  <>
+  <BrowserRouter> 
+    <Header/>
+    <Routing/>
+    <Footer/>
+   </BrowserRouter>
+  </>
+  )
 }
 
-export default App;
+export default App
